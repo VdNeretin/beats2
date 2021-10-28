@@ -1474,19 +1474,19 @@ img {
 .social__item--icon--fb .social__link {
   width: 24px;
   height: 24px;
-  background: url("/img/soc_sprite.png") -10px -10px;
+  background: url("../img/soc_sprite.png") -10px -10px;
 }
 
 .social__item--icon--in .social__link {
   width: 24px;
   height: 24px;
-  background: url("/img/soc_sprite.png") -54px -10px;
+  background: url("../img/soc_sprite.png") -54px -10px;
 }
 
 .social__item--icon--tg .social__link {
   width: 24px;
   height: 24px;
-  background: url("/img/soc_sprite.png") -98px -10px;
+  background: url("../img/soc_sprite.png") -98px -10px;
 }
 
 .contacts {
@@ -1749,7 +1749,7 @@ img {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url("../../img/youtube.png") center center/cover no-repeat;
+  background: url("../img/youtube.png") center center/cover no-repeat;
   cursor: pointer;
 }
 
