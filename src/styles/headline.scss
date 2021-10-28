@@ -1,0 +1,17 @@
+.headline__title{
+  margin-bottom: rem(18px);
+}
+
+.headline {
+  text-align: center;
+}
+
+.headline__subtitle{
+  padding: 0 26%;
+  margin-bottom: rem(60px);
+
+  @include phones{
+    padding: 0 10%;
+  }
+}
+

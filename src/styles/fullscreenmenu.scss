@@ -1,0 +1,54 @@
+.fullscreen-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: rem(36px);
+  background: black;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.fullscreen-menu .menu__link {
+  color: #fff;
+}
+
+.fullscreen-menu .menu__list {
+  flex-direction: column;
+}
+
+.fullscreen-menu .menu__item {
+  margin-right: 0;
+  margin-bottom: rem(20px);
+
+}
+
+.menu__vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 135px;
+  @include tablets {
+    display: block;
+  }
+}
+
+.fullscreen-menu .menu {
+  @include tablets {
+    display: flex;
+  }
+}
+
+.fullscreen__menu-close {
+  justify-content: right;
+  display: flex;
+}

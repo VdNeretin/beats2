@@ -1,0 +1,35 @@
+.simple-slider-container {
+  position: absolute;
+
+}
+
+.simple-slider-left {
+  top: 267px;
+  left: -94px;
+
+  @include tablets{
+    top: -239px;
+    left: 70px;
+  }
+
+  @include phones{
+    top: -210px;
+    left: 0px;
+
+  }
+}
+
+.simple-slider-right {
+  right: -12px;
+  top: 267px;
+
+  @include tablets{
+    top: -239px;
+    right: 70px;
+  }
+
+  @include phones{
+    top: -210px;
+    right: 0;
+  }
+}

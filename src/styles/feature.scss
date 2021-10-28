@@ -1,0 +1,15 @@
+.feature{
+  display: flex;
+}
+
+
+.feature__icon{
+  width: rem(41px);
+  margin-right: rem(11px);
+}
+
+
+.feature__text{
+  font-size: rem(16px);
+  max-width: rem(114px);
+}

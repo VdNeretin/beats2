@@ -1,0 +1,17 @@
+.features{
+  display: flex;
+}
+
+.features__item{
+  margin-right: rem(8px);
+
+  &:last-child{
+    margin-right: 0;
+  }
+}
+
+.feature__icon--battery{
+  width: 52px; 
+  height: 52px;
+  background: url("css_sprites.png") -10px -10px;
+}

@@ -1,0 +1,66 @@
+.footer{
+  position:absolute;
+  bottom: 19px;
+  left: 0;
+  background: #fff;
+}
+
+.footer__container{
+  display: flex;
+  flex-direction: initial;
+  justify-content: space-between;
+  height: 100%;
+  margin-top: 20px;
+
+  @include phones{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.contacts{
+  margin-left: 80px;
+
+  @include phones{
+    margin-right: 100px;
+  }
+}
+
+.contacts__phone:hover{
+color: red;
+}
+
+.social__list{
+  display: flex;
+  margin-right: 40px;
+}
+
+.social__item{
+  display: flex;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.social__item--icon--vk .social__link {
+  width: 24px; 
+  height: 24px;
+    background: url("../img/soc_sprite.png") -142px -10px;
+}
+
+.social__item--icon--fb .social__link {
+  width: 24px; 
+  height: 24px;
+    background: url("../img/soc_sprite.png") -10px -10px;
+}
+
+.social__item--icon--in .social__link {
+  width: 24px; 
+  height: 24px;
+    background: url("../img/soc_sprite.png") -54px -10px;
+}
+
+.social__item--icon--tg .social__link {
+  width: 24px; 
+  height: 24px;
+    background: url("../img/soc_sprite.png") -98px -10px;
+}

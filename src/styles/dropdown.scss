@@ -1,0 +1,92 @@
+.dropdown {
+  position: relative;
+  margin-right: 3px;
+  cursor: pointer;
+  width: 91px;
+
+  @include tablets{
+    display: none;
+  }
+
+  @include phones{
+    display: none;
+  }
+}
+
+.dropdown__gear {
+
+  background: #9A9A9A;
+  width: rem(91px);
+  height: rem(91px);
+  border-radius: rem(4px);
+  margin-bottom: rem(25px);
+  display: flex;
+  padding: rem(25px);
+}
+
+.dropdown:hover .dropdown__menu {
+  display: block;
+}
+
+.dropdown__menu {
+  display: flex;
+  position: absolute;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  width: 273px;
+  top: 0%;
+  left: 100%;
+  display: none;
+}
+
+.dropdown__list{
+display: inline-flex;
+flex-direction: column;
+}
+
+.dropdown__item{
+  width: rem(246px);
+  height: rem(44px);
+  display: inline-flex;
+  justify-content: space-between;
+  color:#000 ;
+  font-size: rem(16px);
+  padding: rem(18px) rem(14px);
+  margin-bottom: rem(8px);
+  &:last-child{
+    margin-bottom: rem(24px);
+  }
+}
+
+
+
+.dropdown__avatar__bt{
+  width: rem(32px); 
+  height: rem(32px);
+  background: url("../img/icon/sprite_setting.png") -10px -62px;
+}
+
+.dropdown__avatar__dist{ 
+  width: rem(32px); 
+  height: rem(32px);
+  background: url("../img/icon/sprite_setting.png") -62px -62px;
+}
+
+.dropdown__avatar__power{
+  width: rem(32px); 
+  height: rem(32px);
+  background: url("../img/icon/sprite_setting.png") -10px -10px;
+}
+
+.dropdown__avatar__weight{
+  width: rem(32px); 
+  height: rem(32px);
+  background: url("../img/icon/sprite_setting.png") -114px -10px;
+}
+
+.dropdown__avatar__garanty{
+  width: rem(32px); 
+  height: rem(32px);
+  background: url("../img/icon/sprite_setting.png") -62px -10px;
+}

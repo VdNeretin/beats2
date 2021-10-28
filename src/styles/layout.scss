@@ -1,0 +1,96 @@
+html{
+  font-size:$baseFontSize ;
+
+  @include tablets {
+    font-size: $baseFontSize - 1px;
+  }
+  @include phones {
+    font-size: $baseFontSize - 2px;
+  }
+
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Play', Arial, Helvetica, sans-serif, sans-serif;
+  font-style: normal;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  color:#666666;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.maincontent{
+  height: 100%;
+  transition: transform 1s;
+  will-change: transform;
+}
+
+.container {
+  width: 95%;
+  height: 100vh;
+  max-width: $containerWidth;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+// tag styles reset
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ margin-top: 0;
+ font-weight: normal;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  li{
+    list-style: none;
+  }
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+footer{
+  position: relative;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+a {
+  color:inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}

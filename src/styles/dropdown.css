@@ -1,0 +1,17 @@
+.dropdown__avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: grey;
+  width: rem(91px);
+  height: rem(91px);
+  border-radius: rem(4px);
+  margin-bottom: rem(25px);
+}
+
+.dropdown__gear {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: rem(25px);
+}

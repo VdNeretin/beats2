@@ -1,0 +1,84 @@
+.section__menu{
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  background: url("../img/products.jpg") center center/cover no-repeat;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu__title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #fff;
+}
+
+.menu-acco{
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+}
+
+.menu-acco__line{
+  display: flex;
+  cursor: pointer;
+  height: 100%;
+}
+
+.menu-acco__trigger{
+  position: relative;
+  width: 80px;
+}
+
+.menu-acco__trigger-text{
+  position: absolute;
+  left: 50%;
+  bottom: 145px;
+  font-size: 36px;
+  transform: rotate(-90deg) translate(-50%, -50%);
+  color: #fff;
+
+  transform-origin: 0 0;
+  white-space: nowrap;
+  
+}
+
+.menu-acco__content{
+  width: 0;
+  overflow: hidden;
+  color: #fff;
+  background: rgba(51 53 55 / 90%);
+  position: relative;
+  transition: width .7s;
+}
+
+.menu-acco__coneten-text{
+  font-size: 16px;
+  padding: 31px 36px;
+}
+
+.menu-acco__line_active > .menu-acco__content {
+  width: 500px;
+  padding: 20px;
+  box-sizing: border-box;
+  opacity: 1;
+  z-index: 10;
+}
+
+.menu-acco__trigger-gray{
+  background:#999999 ;
+}
+
+.menu-acco__trigger-black{
+  background:#000 ;
+}
+
+.menu-acco__trigger-red{
+  background: #E01F3C;
+}
